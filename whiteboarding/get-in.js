@@ -5,8 +5,8 @@ function getIn(path, data) {
       level++;
     }
   }
-  if (level === 2 && data[path] === {}) {
-    return data[path];
+  if (level === 2) {
+    console.log(data[path]);
   }
   return data[path];
 }
